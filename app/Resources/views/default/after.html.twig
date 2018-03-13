@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block title %}After login page{% endblock %}
+
+{% block body %}
+<h1>Your in page after</h1>
+<div>
+    <p>id:{{ user.id }} </p>
+    <p>username: {{ user.username }} </p>
+    <p>email: {{ user.email }} </p>
+</div>
+{% endblock %}
